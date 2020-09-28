@@ -12,7 +12,9 @@
     "build": "npm run clean && tsc",
     "pub": "git add . && git commit -m \"Bump version\" && yarn build && yarn publish --access public"
   },
-  "keywords": [],
+  "keywords": [
+    "commons"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
