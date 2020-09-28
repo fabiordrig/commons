@@ -1,6 +1,6 @@
 import { ValidationError } from "express-validator";
 import { CustomError } from "./custom-error";
-import { HTTP_STATUS_CODE } from "../constants";
+import { HTTP_STATUS_CODE } from "../constants/http";
 export class RequestValidationError extends CustomError {
   statusCode = HTTP_STATUS_CODE.BAD_REQUEST;
   constructor(public errors: ValidationError[]) {

@@ -1,5 +1,5 @@
 import { CustomError } from "./custom-error";
-import { HTTP_STATUS_CODE } from "../constants";
+import { HTTP_STATUS_CODE } from "../constants/http";
 
 export class ConflictError extends CustomError {
   statusCode = HTTP_STATUS_CODE.CONFLICT;

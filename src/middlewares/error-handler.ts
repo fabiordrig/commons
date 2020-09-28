@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from "express";
 import { CustomError } from "../errors";
-import { HTTP_STATUS_CODE } from "../constants";
+import { HTTP_STATUS_CODE } from "../constants/http";
 export const errorHandler = async (
   err: Error,
   req: Request,
