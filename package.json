@@ -13,7 +13,8 @@
     "pub": "git add . && git commit -m \"Bump version\" && yarn build && yarn publish --access public"
   },
   "keywords": [
-    "commons"
+    "commons",
+    "ticketing"
   ],
   "author": "Fabio Rodrigues da Silva",
   "license": "ISC",
