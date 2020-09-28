@@ -15,7 +15,7 @@
   "keywords": [
     "commons"
   ],
-  "author": "",
+  "author": "Fabio Rodrigues da Silva",
   "license": "ISC",
   "devDependencies": {
     "del-cli": "^3.0.0",
