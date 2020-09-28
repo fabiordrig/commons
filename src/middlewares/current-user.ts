@@ -27,3 +27,9 @@ export const currentUser = (req: Request, res: Response, next: NextFunction) => 
 
   next();
 };
+
+export const bla = () => {
+  console.log("====================================");
+  console.log("bla");
+  console.log("====================================");
+};
